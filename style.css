@@ -14,6 +14,12 @@
 .applybtn:hover{
     color: #5d5d5d;
 }
+.expertsimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
 
 
 .dadaimg{
@@ -23,18 +29,20 @@
     height:60vh;
 }
 .maintext{
-    width: 50%;
+    width: 35%;
+    margin-left: 3rem
 
 }
 .maintext h1{
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     font-weight: 400;
 
 }
 .maintext p{
     font-size: 1.25rem;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #b0b0b0;
+    text-align: justify;
 }
 
 
