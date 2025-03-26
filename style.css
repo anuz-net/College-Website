@@ -1,16 +1,42 @@
 *{
-    font-family: "Inter", sans-serif;
+    font-family: "Lexend", sans-serif;
 }
 /* Anuz Section  */
-.nav-item a:hover{
-    color: aquamarine;
+
+.prix{
+    background-color: #cacdfa;
+    color: rgb(0, 0, 0);
 }
+.prix:hover{
+    background-color: rgb(243, 211, 255);
+    color: black;
+}
+.applybtn:hover{
+    color: #5d5d5d;
+}
+
+
 .dadaimg{
-    background-image: url(Images/bg-example.jpg);
-    background-size:contain;
+    background-image: url(Images/dummy-bg.png);
+    background-size:cover;
     background-position: center;
-    height:80vh;
+    height:60vh;
 }
+.maintext{
+    width: 50%;
+
+}
+.maintext h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+
+}
+.maintext p{
+    font-size: 1.25rem;
+    margin-top: 10px;
+    color: #b0b0b0;
+}
+
 
 /* Prabin section Why lict section ko lagi */
 
@@ -74,5 +100,7 @@ col-md-6 custom-box{
 a {
     text-decoration: none;
 }
-
+.footer{
+    text-align: justify;
+}
 
