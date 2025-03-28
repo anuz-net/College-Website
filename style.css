@@ -30,7 +30,7 @@
     /* height: 55rem; */
 }
 .maintext{
-    width: 35%;
+    width: 45%;
     margin-left: 3rem
 
 }
@@ -47,6 +47,31 @@
 }
 .card{
     border: 3px solid black;
+}
+
+/* Faculty Section  */
+
+.facultyimg{
+    background-color: #000000;
+}
+.fc{
+    background-image: url(Images/cardbg2.png);
+    background-size: cover;
+    border: 1px solid rgba(150, 150, 150, 0.263);
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 4px;
+    /* text-align: left; */
+}
+.fctxt{
+    width: 30%;
+}
+.h2{
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,130,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 5rem;
 }
 
 /* Prabin section Why lict section ko lagi */
@@ -94,8 +119,10 @@ background: linear-gradient(0deg, rgba(91,0,120,1) 0%, rgb(21, 0, 31) 100%); */
 
 /* prabin section ends here */
 
-
-
+/* testimonial  */
+.testi{
+    background-image: url(Images/orange-bg.png);
+}
 
 
 
@@ -148,4 +175,5 @@ a {
 .expert{
     border: 3px solid black;
 }
+
 
