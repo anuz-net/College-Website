@@ -23,9 +23,10 @@
 
 
 .dadaimg{
-    background-image: url(Images/dummy-bg.png);
-    background-size:cover;
-    background-position: center;
+    background-image: url(Images/main.png);
+    background-size: cover;
+    /* background: rgb(120,52,0);
+    background: linear-gradient(0deg, rgba(120,52,0,1) 0%, rgba(0,0,0,1) 96%); */
     /* height: 55rem; */
 }
 .maintext{
@@ -52,8 +53,10 @@
 
 .custome-container
 {
-background-image: url(Images/orange-bg.png);
+background-image: url(Images/purple-bg.png);
 background-size: cover;
+/* background: rgb(91,0,120);
+background: linear-gradient(0deg, rgba(91,0,120,1) 0%, rgb(21, 0, 31) 100%); */
   padding: 50px 0;
   text-align: center;
   height: 65vh;
