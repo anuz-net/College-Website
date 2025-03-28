@@ -145,4 +145,7 @@ a {
 .footer{
     text-align: justify;
 }
+.expert{
+    border: 3px solid black;
+}
 
