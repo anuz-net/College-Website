@@ -1,6 +1,12 @@
 *{
     font-family: "Poppins", sans-serif;
 }
+/* fade in effect  */
+
+body {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
 /* Anuz Section  */
 
 .prix{
