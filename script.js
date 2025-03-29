@@ -1,3 +1,4 @@
+
 // Fade in effect
 document.addEventListener("DOMContentLoaded", function () {
     document.body.style.opacity = 1;
@@ -15,3 +16,6 @@ document.addEventListener("DOMContentLoaded" , function(){
         }
     },5000);
 });
+
+
+
