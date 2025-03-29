@@ -1,13 +1,25 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+  }
+
 *{
     font-family: "Poppins", sans-serif;
 }
 /* fade in effect  */
-
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
 body {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    padding-top: 56px; 
 }
-/* Anuz Section  */
+
+/* Modal  */
+
 
 .prix{
     background-color: #cacdfa;

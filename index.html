@@ -36,7 +36,7 @@
 <body>
 
   <!-- header Sexon  -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-black" aria-label="Fourth navbar example">
+  <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top" aria-label="Fourth navbar example">
     <div class="container p-2">
       <div class="logo">
         <a class="navbar-brand" href="#"><img src="Images/Logo-hori.png" alt="Logo" style="height: 50px;"></a>
@@ -49,13 +49,13 @@
       <div class="navbar-collapse collapse" id="navbarsExample04">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link" href="#1">Home</a>
+            <a class="nav-link" href="#Home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#2">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#3">Magazine</a>
+            <a class="nav-link" href="#footer">Magazine</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -79,7 +79,7 @@
           </li>
         </ul>
         <div class="headbtn d-flex gap-3 justify-content-center align-items-center">
-          <span><a href="#" class="list-unstyled text-decoration-none text-center applybtn text-white">Apply
+          <span><a href="#" class="list-unstyled text-decoration-none text-center applybtn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply
               now</a></span>
           <button type="button" class="btn btn-primary prix  rounded-1 fw-semibold"> Contact us </button>
         </div>
@@ -87,8 +87,81 @@
     </div>
   </nav>
 
+  <!-- Modal Section  -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content "> 
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Apply Form</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="form-container">
+            <h3 class="text-center mb-4">LICT Application Form</h3>
+            <form>
+                <!-- Full Name -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+                </div>
+    
+                <!-- Email -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+    
+                <!-- Phone Number -->
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                </div>
+    
+                <!-- Date of Birth -->
+                <div class="mb-3">
+                    <label for="dob" class="form-label">Date of Birth</label>
+                    <input type="date" class="form-control" id="dob" required>
+                </div>
+    
+                <!-- Select Course -->
+                <div class="mb-3">
+                    <label for="course" class="form-label">Select Course</label>
+                    <select class="form-control" id="course" required>
+                        <option value="">Choose your course</option>
+                        <option value="bsc_cs">BSc. CSIT</option>
+                        <option value="bba">BCA</option>
+                        <option value="ba">BIM</option>
+                        <option value="btech">BHM</option>
+                    </select>
+                </div>
+    
+                <!-- Address -->
+                <div class="mb-3">
+                    <label for="address" class="form-label">Address</label>
+                    <textarea class="form-control" id="address" rows="3" placeholder="Enter your address" required></textarea>
+                </div>
+    
+                <!-- Upload Documents -->
+                <div class="mb-3">
+                    <label for="documents" class="form-label">Upload Documents (PDF, JPG, PNG)</label>
+                    <input type="file" class="form-control" id="documents" accept=".pdf,.jpg,.png" required>
+                </div>
+    
+                <!-- Submit Button -->
+
+            </form>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Submit Application</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <!-- Hero Sectiomn  -->
-  <section class="dada">
+  <section class="dada"id="Home">
     <div class="container-fluid dadaimg d-flex flex-column justify-content-center align-items-center">
 
       <div class="container text-md-start mt-5 ">
@@ -166,7 +239,7 @@
   </section>
 
   <!-- Faculty Setion  -->
-  <section class="faculty ">
+  <section class="faculty " id="about">
     <div class="container-fluid facultyimg p-5 ">
       <div class="container p-5">
         <h1 class="fw-medium text-white  ">Courses We Offer</h1>
@@ -520,14 +593,14 @@
 
 
   <!-- Content Section -->
-  <section class="bg-dark text-light py-5  ">
+  <section class="bg-dark text-light py-5  " id="footer">
     <div class="container ">
       <div class="row ">
         <!-- Left Menu -->
         <div class="col-md-3">
           <ul class="list-unstyled">
-            <li><a href="#" class="text-light text-decoration-none">Home</a></li><br>
-            <li><a href="#" id="2" class="text-light text-decoration-none">About Us</a></li><br>
+            <li><a href="#home" class="text-light text-decoration-none">Home</a></li><br>
+            <li><a href="#about" id="2" class="text-light text-decoration-none">About Us</a></li><br>
             <li><a href="#" id="3" class="text-light text-decoration-none">Magazine</a></li><br>
             <li><a href="#" id="4" class="text-light text-decoration-none">Faculties</a></li><br>
             <li><a href="#" id="5" class="text-light text-decoration-none">Gallery</a></li><br>
