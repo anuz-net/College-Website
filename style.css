@@ -67,6 +67,8 @@ body {
     width: 100%;
     padding: 20px 30px;
     border-radius: 4px;
+    min-width: 300px; /* Ensure the boxes have a defined width */
+    margin-right: 15px; 
     /* text-align: left; */
 }
 .fctxt{
@@ -79,6 +81,13 @@ body {
     -webkit-text-fill-color: transparent;
     line-height: 5rem;
 }
+/* scrool course we offer section */
+.fcbox1 {
+    display: flex;
+    overflow-x: auto; /* Allows horizontal scrolling */
+    scroll-behavior: smooth; /* Optional: Smooth scrolling */
+  }
+  
 
 /* Prabin section Why lict section ko lagi */
 
