@@ -66,6 +66,16 @@ body {
   border: 3px solid black;
 }
 
+.headcard:hover{
+    transform: scale(1.021);
+    transition: all .2s ease-in-out;
+
+}
+.headcard:active{
+    transform: scale(0.95) rotateZ(1.1deg);
+}
+
+
 /* Faculty Section  */
 
 .facultyimg {
@@ -102,6 +112,8 @@ body {
   display: flex;
   overflow-x: auto; /* Allows horizontal scrolling */
   scroll-behavior: smooth; /* Optional: Smooth scrolling */
+  scrollbar-width: none; /* Hide the scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide the scrollbar for IE and Edge */
   
 }
 
