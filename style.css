@@ -1,6 +1,12 @@
 *{
     font-family: "Poppins", sans-serif;
 }
+/* fade in effect  */
+
+body {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
 /* Anuz Section  */
 
 .prix{
@@ -61,6 +67,8 @@
     width: 100%;
     padding: 20px 30px;
     border-radius: 4px;
+    min-width: 300px; /* Ensure the boxes have a defined width */
+    margin-right: 15px; 
     /* text-align: left; */
 }
 .fctxt{
@@ -73,6 +81,13 @@
     -webkit-text-fill-color: transparent;
     line-height: 5rem;
 }
+/* scrool course we offer section */
+.fcbox1 {
+    display: flex;
+    overflow-x: auto; /* Allows horizontal scrolling */
+    scroll-behavior: smooth; /* Optional: Smooth scrolling */
+  }
+  
 
 /* Prabin section Why lict section ko lagi */
 
