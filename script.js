@@ -1,3 +1,12 @@
+//Loader 
+
+$(window).on("load", function () {
+    $(".loading-wave").fadeOut("slow", function () {
+        $(this).remove(); // Remove the loader from the DOM
+        $("body").css("overflow", "auto"); // Enable scrolling if disabled
+    });
+});
+
 
 // Fade in effect
 document.addEventListener("DOMContentLoaded", function () {
